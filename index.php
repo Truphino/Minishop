@@ -93,8 +93,8 @@ auth($_POST['login'], $_POST['passwd']); ?>
 		##trecomps
       }
     }
-	echo '<a href="./add_panier.php?add=0" class="button">Vider panier</a>';
     ?>
+	<a href="./add_panier.php?add=0" class="button">Vider panier</a>
     </div>
   </div>
   </body>

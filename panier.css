@@ -1,0 +1,27 @@
+.button {
+	width: 115px;
+	height: 25px;
+	background: #4E9CAF;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.product_img {
+	width: 60%;
+	height: auto;
+}
+
+.basket_container {
+	display: inline-block;
+}
+.basket_container img {
+	display: inline-block;
+}
+.basket_container h5 {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+}

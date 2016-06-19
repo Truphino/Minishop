@@ -12,9 +12,12 @@ if ($product != 0)
 	}
 	else
 		$_SESSION["basket"][$product]["count"] += $_GET["count"];
+	header("Location: index.php");
 }
 else
+{
 	unset($_SESSION["basket"]);
-header("Location: index.php")
+	header("Location: index.php");
+}
 
 ?>
